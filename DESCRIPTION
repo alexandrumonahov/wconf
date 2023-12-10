@@ -1,0 +1,22 @@
+Package: wconf
+Type: Package
+Title: Weighted Confusion Matrix
+Version: 1.0.0
+Author: Alexandru Monahov
+Maintainer: Alexandru Monahov <alexandru.monahov@proton.me>
+URL: https://www.alexandrumonahov.eu.org/projects
+Description: wconf is a package that allows users to create weighted confusion
+    matrices and accuracy metrics that help with the model selection process
+    for classification problems, where distance from the correct category is
+    important. The package includes several weighting schemes which can be
+    parametrized, as well as custom configuration options. Furthermore, users
+    can decide whether they wish to positively or negatively affect the
+    accuracy score as a result of applying weights to the confusion matrix.
+    “wconf” integrates well with the “caret” package, but it can also work
+    standalone when provided data in matrix form.
+License: CC BY-SA 4.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Suggests: knitr, rmarkdown, caret
+VignetteBuilder: knitr
